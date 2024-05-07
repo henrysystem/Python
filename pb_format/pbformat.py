@@ -161,6 +161,7 @@ def formatear_codigo_wrapper():
     formatear_codigo()
 
 ventana = tk.Tk()
+ventana.state('zoomed')
 ventana.title("Formateador de Código PowerScript")
 
 frame_principal = tk.Frame(ventana)
